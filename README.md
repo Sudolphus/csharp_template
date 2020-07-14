@@ -17,25 +17,20 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 ## Setup/Installation Requirements
 
 Software Requirements
-1. Internet browser
-2. A code editor like VSCode or Atom to view or edit the codebase.
+1. .NET framework
+2. A code editor (Visual Studio Code, Atom, etc.)
 
-Open by downloading:
-1. Download this repository onto your computer by clicking the 'clone or download button'
-2. Double click index.html to open it in your web browser
+Acquire The Repo:
+1. Click the 'Clone or Download Button
+2. Alternately, Clone via Bash/GitBash: `git clone {repo}`
 
-Open via Bash/GitBash:
-1. Clone this repository onto your computer:
-`git clone {PUT_REPO_HERE}`
-2. Navigate into the `{NAME_OF_DIRECTORY}` directory in Visual Studio Code or preferred text editor
-`code .`
-3. Get the necessary packages `npm install`.
-4. Compile the code `npm run build`.
-5. Open index.html in Chrome or preferred browser:
-`open dist/index.html`
+Editting the Code Base:
+1. Open the project in your code editor; with Bash, this is done by navigating to the project directory, then `code .`
+2. If you wish to run testing, you'll need the testing packages: navigate into the .Tests folder, and run `dotnet restore`
 
-#### To see my live website go to [GH_PAGES_LINK_HERE](https://sudolphus.github.io/Portfolio/)!
-
+Running the program:
+1. To run the program, you'll need to compile the code: `dotnet build`. This will create a compiled application in the bin/ folder.
+2. Alternately, you can run the program directly with `dotnet run`.
 
 ## Known Bugs
 
@@ -47,11 +42,8 @@ _Please reach out through my GitHub account._
 
 ## Technologies Used
 
-* _HTML_
-* _CSS (including Bootstrap)_
-* _JavaScript (including jQuery)_
 * _VSCode_
-* _Node.js (including webpack)_
+* _C# and .NET_
 
 ### License
 
