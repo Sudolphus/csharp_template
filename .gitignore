@@ -1,6 +1,6 @@
 .vscode/
-bin/
-obj/
+*/bin/
+*/obj/
 node_modules/
 dist/
 .DS_Store
