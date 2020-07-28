@@ -9,7 +9,7 @@ namespace ProjectName.Tests
     [TestMethod]
     public void NameOfMethod_DescriptionOfTest_ExpectedResult()
     {
-      Assert.AreEqual(ExpectedResult, CodeToTest);
+      Assert.AreEqual;
     }
   }
 }
