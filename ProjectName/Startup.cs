@@ -25,7 +25,7 @@ namespace ProjectName
       services.AddMvc();
 
       services.AddEntityFrameworkMySql()
-        .AddDBContext<ProjectNameContext>(options => options
+        .AddDbContext<ProjectNameContext>(options => options
         .UseMySql(Configuration["ConnectionStrings:DefaultConnection"]));
     }
 
